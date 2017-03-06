@@ -12,4 +12,5 @@ mvn clean install -P remote
 Access:
 http://localhost:8080/demo
 
-
+upload test file:
+src\main\resources\bankDetailTest.csv
