@@ -20,7 +20,8 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.card.demo")
 public class AppConfig extends WebMvcConfigurerAdapter{
-	
+
+
    @Bean(name="multipartResolver")
     public StandardServletMultipartResolver resolver(){
         return new StandardServletMultipartResolver();
