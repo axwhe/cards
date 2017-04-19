@@ -21,7 +21,7 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = "com.card.demo")
 public class AppConfig extends WebMvcConfigurerAdapter{
 
-    //test commit from intellij from develop
+   //test commit from intellij merged
    @Bean(name="multipartResolver")
     public StandardServletMultipartResolver resolver(){
         return new StandardServletMultipartResolver();
